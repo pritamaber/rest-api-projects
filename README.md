@@ -10,7 +10,7 @@ This repository contains beginner-friendly, production-style REST API projects b
 
 ```
 rest-api-projects/
-├── hello-api/           // Day 1 – Your First REST Endpoint
+├── hello-api/           // Day 1 – First REST Endpoint
 │   └── index.js
 ├── quotevault-api/      // Day 2 – Full CRUD API with in-memory DB
 │   ├── index.js
