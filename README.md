@@ -8,11 +8,17 @@ This repository contains beginner-friendly, production-style REST API projects b
 
 ## 📁 Project Structure
 
+```
 rest-api-projects/
-├── hello-api/ # Day 1 – Your First REST Endpoint
-├── quotevault-api/ # Day 2 – Full CRUD API with in-memory DB
-
----
+├── hello-api/           // Day 1 – Your First REST Endpoint
+│   └── index.js
+├── quotevault-api/      // Day 2 – Full CRUD API with in-memory DB
+│   ├── index.js
+│   ├── routes/
+│   │   └── quotes.js
+│   └── data/
+│       └── quotes.js
+```
 
 ## 📦 Projects
 
