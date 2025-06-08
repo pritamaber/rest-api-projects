@@ -11,7 +11,7 @@ very simple api , just prints hello for the route "/hello"
 
 very simple quotes api with two data points , it is a complete api with CRUD operations
 
-## 3. taskify-api ([taskify frontend](taskify.impritam.com))
+## 3. taskify-api 
 
 its become exciting here onwards , this taskify api is hosted on render backed -- the frontend is available at taskify.impritam.com or can be accessed at my personal dev website at impritam.com and projects.impritam.com
 
@@ -24,6 +24,8 @@ This taskify api has all CRUD endpoints which can be accessed at - api.impritam.
  - POST - `api.impritam.com/api/tasks` - add a task with title, description
  
  - DELETE - `api.impritam.com/api/tasks/id` - delete task with given id
+
+### View the project frontent at taskify.impritam.com
 
 ## Visit my portfolio
 
