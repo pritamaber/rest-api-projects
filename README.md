@@ -41,6 +41,24 @@ available endpoints
 
 That’s it for now — simple and solid. More features coming soon.
 
+## 5. auth-api jwt based authentication
+
+This is a simple Auth API project built with Node.js and Express.
+It supports registration, login, and a protected /me route using JWT.
+
+All routes are prefixed with /api.
+
+Available Endpoints
+POST /api/register – create a new user
+→ required: name, email, password
+
+POST /api/login – login with credentials
+→ required: email, password
+→ returns a JWT token
+
+GET /api/me – protected route, shows logged-in user's data
+→ requires Authorization: Bearer <token> header
+
 ## Visit my portfolio
 
 **impritam.com** and **projects.impritam.com**
