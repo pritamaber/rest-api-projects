@@ -27,6 +27,22 @@ This taskify api has all CRUD endpoints which can be accessed at - api.impritam.
 
 ### View the project frontent at taskify.impritam.com
 
+## 4. contactbook-api
+
+It’s getting exciting here too — this ContactBook API is built with Express and supports filtering, sorting, and pagination.
+
+The frontend will soon be live, but for now, the API is available locally at: `http://localhost:3000/contacts`
+
+available endpoints
+
+GET /contacts → list all contacts
+GET /contacts/:id → get contact by ID
+GET /contacts?city=Delhi → filter by city
+GET /contacts?page=1&limit=5 → pagination
+GET /contacts?sort=asc&sortBy=name → sort results
+
+That’s it for now — simple and solid. More features coming soon.
+
 ## Visit my portfolio
 
 **impritam.com** and **projects.impritam.com**
